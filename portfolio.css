@@ -1,0 +1,461 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: #081b29;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 20px;
+    transition: .3s;
+}
+.header .btn-menu{
+    display: none;
+    position: absolute;
+    color: white;
+    top: 30px;
+    right: 50px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.navbar a:hover ,
+.navbar a.active{
+    color: #00abf0;
+    text-decoration: overline;
+}
+.accueil{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15%;
+}
+
+.contenu-accueil h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #00abf0;
+}
+.contenu-accueil h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.contenu-accueil p{
+    font-size: 16px;
+    text-align: justify;
+    color: antiquewhite;
+    width: 90%;
+}
+.contenu-accueil .btn{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+.photo-resp img{
+    display: none;
+    border-radius: 50%;
+    width: 180px;
+    height: 150%;
+    max-width: 250px;
+    margin: 20px auto;
+    /* margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 100px; */
+}
+
+.photo img{
+    display: flex;
+    border-radius: 50%;
+    justify-content: space-between;
+    width: 300px;
+    height: 300%;
+    max-width: 400px;
+    margin-left: 20%;
+}
+
+.btn a{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: #081b29;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #00abf0;
+    text-decoration: none;
+    font-weight:600;
+    transition: .5s;
+}
+
+.btn a:hover{
+    color: #081b29;
+    background: #007bb5;
+    border: none;
+}
+
+.bas_de_page{
+    margin-top: -10%;
+}
+.home-sci{
+    width: 170px;
+    margin-left: 15%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 40px;
+    background:transparent;
+    border: 2px solid #00abf0;
+    border-radius:50%;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #00abf0;
+    text-decoration: none;
+    transition: .3s ease-in;
+}
+.home-sci a:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 8px #00abf0;
+}
+/* --- Styles professionnels pour sections "A propos" --- */
+.propos {
+    padding-top: 100px; /* Espace sous le header fixe */
+}
+.propos h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #00abf0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.propos .one p {
+    background: #f4fbff;
+    color: #081b29;
+    border-left: 5px solid #00abf0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    box-shadow: 0 2px 8px rgba(0,171,240,0.08);
+    font-size: 17px;
+    font-style: italic;
+}
+
+.propos .two .descrip {
+    background: #ffffff;
+    color: #081b29;
+    border-left: 5px solid #007bb5;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 70%;
+    box-shadow: 0 2px 8px rgba(0,123,181,0.10);
+}
+
+.propos .two .descrip h3 {
+    color: #007bb5;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.propos .two .descrip {
+    background: #ffffff; /* Blanc */
+    color: #081b29;
+    border-left: 5px solid #007bb5; /* Bleu plus foncé */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    box-shadow: 0 2px 8px rgba(0,123,181,0.10);
+}
+
+.propos .two .descrip h3 {
+    color: #007bb5;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.propos .two .descrip ul li {
+    background: transparent;
+    color: #081b29;
+    margin: 10px 0;
+    padding-left: 0;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+
+
+.suivant{
+    padding: 5%;
+}
+.suivant a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #00abf0;
+}
+
+/* services */
+.title {
+    padding: 7%;
+}
+.title h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #00abf0;
+    font-weight: 600;
+}
+.title p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #ededed;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.box  {
+    background-color: #ededed;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    height: 400px;
+    color: #081b29;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    transition: 0.4s;
+}
+.box img{
+    width: 50%;
+    height: 40%;
+    border-radius: 40%;
+    margin-left: 25%;
+}
+.box ul li{
+    margin-left: 10%;
+    text-align:justify;
+    font-size: 16px;
+}
+.box h3{
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+/* contact */
+
+.form-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+.first, .second {
+    background-color: #ededed;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #081b29;
+}
+
+.first h3 {
+    font-size: 18px;
+    color: #00abf0;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.first h3 a{
+    text-decoration:none;
+    color: #00abf0;
+}
+.first h3 a:hover{
+    color: #007bb5;
+}
+
+.first p {
+    font-size: 16px;
+    color: #4b4b4b;
+}
+
+.second form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.second label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.second input, .second textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.second textarea {
+    height: 100px;
+    resize: none;
+}
+
+.second button {
+    background-color: #00abf0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.second button:hover {
+    background-color: #007bb5;
+}
+@media screen and (max-width:800px) {
+    .header .btn-menu{
+        display: block;
+    }
+    .logo{
+        padding: 15px;
+    }
+    .navbar{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background: #081b29;
+        z-index: 200;
+    }
+    .navbar.open{
+        display: flex;
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center;     */
+    }
+    .photo img{
+        display: none;
+    }
+    .photo-resp img{
+        display: block;
+        margin: 20px auto;
+        width: 200px;
+        height: 200px;
+        max-width: 250px;
+        object-fit: cover;
+    }
+    .btn a{
+        display: flex;
+        width: 90px;
+        height: 70%;
+        font-size: 15px;
+        border: 1px solid #00abf0;
+        padding: 3px;
+        margin-top: -20px;
+    }
+    .bas_de_page{
+        margin-top: -8%;
+    }
+     /* Services */
+    .services{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        margin: 20px auto;
+    }
+    .box{
+        padding: 15px;
+        border-radius: 5px;
+        height: 330px;
+        width: 240px;
+        margin: 20px auto;
+    }
+    .box img{
+        width: 40%;
+        height: 30%;
+    }
+    .box ul li{
+        font-size: 14px;
+    }
+
+    /* contact */
+    .form-contact{
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+    }
+    .title{
+        margin-top: 30px;
+    }
+    .first h3{
+        font-size: 15px;
+    }
+    .first p{
+        font-size: 14px;
+    }
+    .sacond label{
+        font-size: 14px;
+    }
+}
+
+
+
