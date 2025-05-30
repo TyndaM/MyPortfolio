@@ -371,7 +371,7 @@ body{
 .second button:hover {
     background-color: #007bb5;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
      .header {
          display:block;
          background:#081b29;
