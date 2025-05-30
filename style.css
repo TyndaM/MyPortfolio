@@ -421,6 +421,7 @@ body{
     .contenu-accueil .btn{
         width:250px;
         height:30px;
+        margin-top:20px;
     }
     .btn a{
         display: flex;
