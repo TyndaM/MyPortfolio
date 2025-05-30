@@ -372,7 +372,11 @@ body{
     background-color: #007bb5;
 }
 @media screen and (max-width:800px) {
-    .header .btn-menu{
+     .header {
+         display:block;
+         background:#081b29;
+     }
+    .btn-menu{
         display: block;
     }
     .logo{
