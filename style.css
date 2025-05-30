@@ -16,7 +16,7 @@ body{
     left: 0;
     width: 100%;
     padding: 30px 10px;
-    background: transparent;
+    background: #081b29;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -371,8 +371,12 @@ body{
 .second button:hover {
     background-color: #007bb5;
 }
-@media screen and (max-width:800px) {
-    .header .btn-menu{
+@media screen and (max-width:900px) {
+     .header {
+         display:block;
+         background:#081b29;
+     }
+    .btn-menu{
         display: block;
     }
     .logo{
@@ -404,6 +408,20 @@ body{
         height: 200px;
         max-width: 250px;
         object-fit: cover;
+    }
+    .contenu-accueil h1{
+        font-size:30px;
+    }
+    .contenu-accueil h3{
+        font-size:20px;
+    }
+    .contenu-accueil p{
+        font-size:14px;
+    }
+    .contenu-accueil .btn{
+        width:250px;
+        height:30px;
+        padding:10px;
     }
     .btn a{
         display: flex;
