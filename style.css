@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -43,9 +42,9 @@ body{
     color: white;
     top: 30px;
     right: 50px;
-    font-size: 40px;
+    font-size: 20px;
     padding: 10px;
-    background: #00abf0;
+    background:transparent;
     border-radius: 8px;
     cursor: pointer;
 }
