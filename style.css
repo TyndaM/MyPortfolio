@@ -92,9 +92,6 @@ body{
     height: 150%;
     max-width: 250px;
     margin: 20px auto;
-    /* margin-right: auto;
-    margin-bottom: 20px;
-    margin-top: 100px; */
 }
 
 .photo img{
@@ -205,9 +202,9 @@ body{
 }
 
 .propos .two .descrip {
-    background: #ffffff; /* Blanc */
+    background: #ffffff; 
     color: #081b29;
-    border-left: 5px solid #007bb5; /* Bleu plus foncé */
+    border-left: 5px solid #007bb5; 
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
@@ -396,9 +393,6 @@ body{
     }
     .navbar.open{
         display: flex;
-        /* flex-direction: column;
-        justify-content: center;
-        align-items: center;     */
     }
     .photo img{
         display: none;
