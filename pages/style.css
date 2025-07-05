@@ -504,6 +504,30 @@ body{
 .second button:hover {
     background-color: #007bb5;
 }
+/* Pour les barres de compétences */
+.skill {
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 22px;
+}
+
+.progress {
+  background-color: #00b894; /* Vert doux */
+  height: 100%;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 22px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 @media screen and (max-width:900px) {
      .header {
          display:block;
