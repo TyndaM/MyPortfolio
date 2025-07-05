@@ -507,6 +507,8 @@ body{
 /* Pour les barres de compétences */
 .skill {
   margin-bottom: 15px;
+  width:50%;
+  margin-left: 20%;
 }
 
 .progress-bar {
