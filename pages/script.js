@@ -6,13 +6,9 @@
 //         navbar.classList.toggle('open');
 //     });
 // });
-
-<script>
-  window.addEventListener("load", () => {
-    const progressBars = document.querySelectorAll(".progress");
-    progressBars.forEach(bar => {
-      const value = bar.getAttribute("data-skill");
-      bar.style.width = value;
-    });
-  });
-</script>
+document.querySelectorAll('.progress').forEach(bar => {
+    bar.style.width = '0';
+    setTimeout(() => {
+        bar.style.width = bar.getAttribute('data-skill');
+    }, 300);
+});
