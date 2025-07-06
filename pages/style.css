@@ -290,8 +290,8 @@ body{
     width:100%;
 }
 /* --- Styles professionnels pour sections "A propos" --- */
-.propos {
-    padding-top: 100px; /* Espace sous le header fixe */
+/* .propos {
+    padding-top: 100px; 
 }
 .propos h2 {
     margin-top: 0;
@@ -361,8 +361,155 @@ body{
     padding-left: 0;
     box-shadow: none;
     font-size: 16px;
+} */
+/* Bloc principal à propos */
+.apropos-container {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(0,171,240,0.10);
+    padding: 40px 30px 30px 30px;
+    margin: 30px auto 40px auto;
+    width: 85%;
+    max-width: 900px;
+    border-left: 7px solid #00abf0;
+    border-right: 1px solid #ededed;
 }
 
+.propos h2 {
+    color: #00abf0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.propos .one p {
+    background: none;
+    color: #081b29;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.7;
+}
+
+.propos .one .objectif,
+.propos .one .valeurs {
+    color: #00abf0;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.competences-bloc {
+    background: #f4fbff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,171,240,0.08);
+    padding: 30px 20px 20px 20px;
+    margin-bottom: 30px;
+    border-left: 5px solid #00abf0;
+}
+
+.competences-bloc h2 {
+    color: #00abf0;
+    font-size: 26px;
+    margin-bottom: 25px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.skill span {
+    font-size: 17px;
+    color: #081b29;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 24px;
+    box-shadow: 0 1px 4px rgba(0,171,240,0.10);
+}
+
+.progress {
+    background: linear-gradient(90deg, #00abf0 60%, #00b894 100%);
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    padding-right: 12px;
+    line-height: 24px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: width 1s cubic-bezier(.4,0,.2,1);
+    min-width: 40px;
+}
+
+.descrip-bloc {
+    background: #f9fbfd;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,123,181,0.10);
+    padding: 25px 20px 20px 20px;
+    margin-bottom: 30px;
+    border-left: 5px solid #007bb5;
+}
+
+.descrip h3 {
+    color: #007bb5;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.descrip ul {
+    padding-left: 20px;
+}
+
+.descrip ul li {
+    background: none;
+    color: #081b29;
+    margin: 12px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    list-style: disc inside;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+    .apropos-container {
+        padding: 18px 5px 18px 5px;
+        width: 98%;
+    }
+    .competences-bloc, .descrip-bloc {
+        padding: 15px 8px;
+    }
+    .skills-list {
+        gap: 10px;
+    }
+}
 
 
 .suivant{
@@ -506,7 +653,7 @@ body{
 }
 /* Pour les barres de compétences */
 /* Style pour la section compétences */
-.two {
+/* .two {
     background: #f4fbff;
     border-left: 5px solid #00abf0;
     border-radius: 12px;
@@ -516,7 +663,6 @@ body{
     width: 80%;
 }
 
-/* Style des barres de compétence */
 .skill {
     margin-bottom: 25px;
     width: 90%;
@@ -550,7 +696,7 @@ body{
     font-size: 15px;
     font-weight: bold;
     transition: width 1s cubic-bezier(.4,0,.2,1);
-}
+} */
 
 @media screen and (max-width:900px) {
      .header {
