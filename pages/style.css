@@ -289,6 +289,13 @@ body{
 .home-sci a:hover::before{
     width:100%;
 }
+.flexdis{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
 /* --- Styles professionnels pour sections "A propos" --- */
 /* .propos {
     padding-top: 100px; 
