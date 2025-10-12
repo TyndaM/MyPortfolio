@@ -1,66 +1,138 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
-    <link rel="stylesheet" href="./pages/style.css">
-    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Kelly Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-    <header class="header">
-        <a href="#" class="logo">Meshou.</a>
 
-        <nav class="navbar">
-            <a href="#" class="active">Accueil</a>
-            <a href="./pages/apropos.html">A propos</a>
-            <a href="./pages/service.html">Service</a>
-            <a href="./pages/contact.html">Contact</a>
-        </nav>
-        <div class="btn-menu">
-            <i class="fas fa-bars"></i> 
-        </div>
-    </header>
-    <section class="accueil">
-        <div class="contenu-accueil">
-            <div class="photo-resp">
-                <img src="../image/profil.jpg" alt="">
-            </div>
-            <h1>Hello, Je suis Meshou Tynda</h1><br>
-            <h3>Développeur FullStack </h3><br>
-            <p>"Bienvenue dans mon portfolio. je suis développeur passionné et étudiant en science informatique. J'aime créer des solutions web modernes, utiles et accessibles à tous."</p>
-                <br><br>
-                "Code. Créativité. Passion"
-            </p><br>
-            <div class="btn">
-                <a href="apropos.html">A propos</a>
-                <a href="./pages/contact.html">Appelez-moi</a>
-            </div>
-        </div>
-        <div class="photo">
-            <img src="./images/profil.jpg" alt="photo_de">
-        </div>
-    </section>
-    <footer class="bas_de_page">
-        <div class="home-sci">
-            <a href="https://www.facebook.com/meshoullam.tinda.3" class="social" target="_blank">
-                <i class="fab fa-facebook"></i>
-            </a>
+<body class="index-page">
 
-            <a href="https://instagram.com/meshoulla?igsh=M3ozdTZqanhoaXkz" class="social" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-            <a href="https://linkedin.com/in/meshoullam-tinda-39b781343?utm_source=share&utm_compaign=share_via&utm_content=profile&utm_medium=android_app" class="social" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <br>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Meshoulam/h1>
+      </a>
 
-            <a href="https://x.com/meshoullamadnit?t=Plq-jpamWMheOQM5KdeFg&s=08" class="social" target="_blank">
-                <i class="fab fa-x-twitter"></i>
-            </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="resume.html">CV</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2>Meshoulam TINDA</h2>
+            <p>Je suis étudiant en science informatique à l'Université Protestante au Congo</p>
+            <a href="about.html" class="btn-get-started">A propos de moi</a>
+          </div>
         </div>
-    </footer>
-    <script src="script.js"></script>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Meshoulam</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
